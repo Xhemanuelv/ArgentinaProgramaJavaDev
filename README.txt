@@ -1,1 +1,1 @@
-Este es mi repositorio personal para el curso de desarrollador java inicial de argentina programa.
+Este es un repositorio  para cursado  desarrollador java inicial de argentina programa.
