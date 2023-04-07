@@ -44,11 +44,15 @@ public class Clase3ArgProg {
 
         // Codificar el mensaje "hola que tal" con desplazamiento de 1
         String mensajeCodificado = codificador.codificar("hola que tal", 1);
-        System.out.println("Mensaje codificado: " + mensajeCodificado);
+        System.out.println("Mensaje codificado: \"" + mensajeCodificado + "\" desplazamiento 1");
+        mensajeCodificado = codificador.codificar("hola que tal", 2);
+        System.out.println("Mensaje codificado: \"" + mensajeCodificado + "\" desplazamiento 2");
 
-        // Decodificar el mensaje "jqncbswgbvcn" con desplazamiento de 2
-        String mensajeDecodificado = codificador.decodificar("jqncbswgbvcn", 2);
-        System.out.println("Mensaje decodificado: " + mensajeDecodificado);
+        // Decodificar el mensaje 
+        String mensajeDecodificado = codificador.decodificar("ipmbarvfaubm", 1);
+        System.out.println("Mensaje decodificado: \"" + mensajeDecodificado + "\" desplazamiento 1");
+        mensajeDecodificado = codificador.decodificar("jqncbswgbvcn", 2);
+        System.out.println("Mensaje decodificado: \"" + mensajeDecodificado + "\" desplazamiento 2");
 
     }
 
