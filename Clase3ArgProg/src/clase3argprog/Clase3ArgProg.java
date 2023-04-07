@@ -42,7 +42,7 @@ public class Clase3ArgProg {
         Ejercicio2 codificador = new Ejercicio2();
         System.out.println("Ejercicio 2");
 
-        // Codificar el mensaje "hola que tal" con desplazamiento de 1
+        // Codificar el mensaje "hola que tal" 
         String mensajeCodificado = codificador.codificar("hola que tal", 1);
         System.out.println("Mensaje codificado: \"" + mensajeCodificado + "\" desplazamiento 1");
         mensajeCodificado = codificador.codificar("hola que tal", 2);
